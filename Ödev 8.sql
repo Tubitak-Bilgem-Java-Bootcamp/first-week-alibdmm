@@ -1,6 +1,6 @@
 --********* ÖDEV8 *********** 
 
---CREATE TABLE employee(id SERIAL PRIMARY KEY, name VARCHAR(50), birthday DATE, email VARCHAR(100) NOT NULL)
+CREATE TABLE employee(id SERIAL PRIMARY KEY, name VARCHAR(50), birthday DATE, email VARCHAR(100) NOT NULL);
 
 /*insert into employee (id, name, birthday, email) values (2, 'Bee', '15/02/2022', 'bmayers1@npr.org');
 insert into employee (id, name, birthday, email) values (3, 'Ches', '07/08/2021', 'colliar2@mayoclinic.com');
@@ -52,7 +52,7 @@ insert into employee (id, name, birthday, email) values (48, 'Keefer', '28/02/20
 insert into employee (id, name, birthday, email) values (49, 'Halley', '13/11/2021', 'hkeoghan1c@ucoz.com');
 insert into employee (id, name, birthday, email) values (50, 'Amandy', '07/10/2021', 'amirfield1d@samsung.com');*/
 
-/*UPDATE employee
+UPDATE employee
 	SET name = 'testName1',
 		email = 'testMail@test.com'
 	WHERE emial = 'cmowling19@bbc.co.uk';
@@ -71,14 +71,14 @@ UPDATE employee
 	SET name = 'testName4',
 		email = 'testMail4@test.com',
 		birthday = '21/07/2021'
-	WHERE name = 'Keefer' and birthday >= '26/02/2022' ;*/	
+	WHERE name = 'Keefer' and birthday >= '26/02/2022' ;
 	
 	
-/*DELETE FROM employee
+DELETE FROM employee
 	WHERE id = 3; 
 	
 DELETE FROM employee 
 	WHERE name = 'Farah'
 	
 DELETE FROM employee
-	WHERE email ='emcgarrahan16@dot.gov'*/
+	WHERE email ='emcgarrahan16@dot.gov'
